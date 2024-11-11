@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employees list" />
+
+    <EditText
+        android:id="@+id/inputFirstName"
+        android:layout_width="364dp"
+        android:layout_height="43dp"
+        android:hint="Firstname"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/inputLastName"
+        android:layout_width="364dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="24dp"
+        android:hint="LastName"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/inputPhones"
+        android:layout_width="364dp"
+        android:layout_height="43dp"
+        android:hint="Phone numbers (CSV)"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Validate" />
+
+    <ListView
+        android:id="@+id/listViewEmployees"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
