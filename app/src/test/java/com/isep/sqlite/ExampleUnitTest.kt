@@ -1,4 +1,4 @@
-package fr.isep.roomexample
+package com.isep.sqlite
 
 import org.junit.Test
 
